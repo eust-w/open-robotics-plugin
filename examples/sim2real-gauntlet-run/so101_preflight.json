@@ -1,0 +1,15 @@
+{
+  "mode": "sim",
+  "robot": "so101",
+  "tasks": [
+    "cube_in_bowl",
+    "peg_in_plate",
+    "two_block_stack"
+  ],
+  "preflight": {
+    "cube_in_bowl": [],
+    "peg_in_plate": [],
+    "two_block_stack": []
+  },
+  "ok": true
+}

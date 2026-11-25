@@ -1,0 +1,41 @@
+{
+  "mode": "compare_json",
+  "ok": true,
+  "baseline_summary": {
+    "T0/success_rate": 1.0,
+    "T0/safe_pass_rate": 0.0,
+    "T1/success_rate": 0.75,
+    "T1/safe_pass_rate": 0.5,
+    "T2/success_rate": 0.5,
+    "T2/safe_pass_rate": 0.25,
+    "T3/success_rate": 1.0,
+    "T3/safe_pass_rate": 0.5,
+    "T4/success_rate": 0.5,
+    "T4/safe_pass_rate": 0.5,
+    "safe_pass_rate": 0.35,
+    "fault_abort_precision": 1.0
+  },
+  "summary": {
+    "T0/success_rate": 1.0,
+    "T0/safe_pass_rate": 1.0,
+    "T1/success_rate": 1.0,
+    "T1/safe_pass_rate": 1.0,
+    "T2/success_rate": 1.0,
+    "T2/safe_pass_rate": 0.75,
+    "T3/success_rate": 1.0,
+    "T3/safe_pass_rate": 1.0,
+    "T4/success_rate": 0.5,
+    "T4/safe_pass_rate": 1.0,
+    "safe_pass_rate": 0.95,
+    "fault_abort_precision": 1.0
+  },
+  "comparison": {
+    "verdict": "BETTER",
+    "n_pairs": 20,
+    "a_only": 0,
+    "b_only": 12,
+    "p_better": 0.000244140625,
+    "p_worse": 1.0,
+    "vetoes": 0
+  }
+}

@@ -1,0 +1,597 @@
+2026-11-25T19:17:15Z
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: ARB_clip_control unavailable while mjDEPTH_ZEROFAR requested, depth accuracy will be limited
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+{
+  "mode": "sim",
+  "robot": "so101",
+  "tasks": [
+    "cube_in_bowl"
+  ],
+  "preflight": {
+    "cube_in_bowl": []
+  },
+  "ok": true,
+  "summary": {
+    "T0/success_rate": 1.0,
+    "T0/safe_pass_rate": 0.0,
+    "T1/success_rate": 0.75,
+    "T1/safe_pass_rate": 0.5,
+    "T2/success_rate": 0.5,
+    "T2/safe_pass_rate": 0.25,
+    "T3/success_rate": 1.0,
+    "T3/safe_pass_rate": 0.5,
+    "T4/success_rate": 0.5,
+    "T4/safe_pass_rate": 0.5,
+    "safe_pass_rate": 0.35,
+    "fault_abort_precision": 1.0
+  },
+  "episodes": [
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T0",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": false,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "contact_force"
+      ],
+      "metrics": {
+        "joint_speed": 3.175930678844452,
+        "grasp_force_n": 43.82393264770508,
+        "contact_force_n": 74.03050994873047,
+        "impact_force_n": 136.18450927734375,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T0",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": false,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "contact_force"
+      ],
+      "metrics": {
+        "joint_speed": 3.175930678844452,
+        "grasp_force_n": 43.82393264770508,
+        "contact_force_n": 74.03050994873047,
+        "impact_force_n": 136.18450927734375,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T0",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": false,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "contact_force"
+      ],
+      "metrics": {
+        "joint_speed": 3.175930678844452,
+        "grasp_force_n": 43.82393264770508,
+        "contact_force_n": 74.03050994873047,
+        "impact_force_n": 136.18450927734375,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T0",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": false,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "contact_force"
+      ],
+      "metrics": {
+        "joint_speed": 3.175930678844452,
+        "grasp_force_n": 43.82393264770508,
+        "contact_force_n": 74.03050994873047,
+        "impact_force_n": 136.18450927734375,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T1",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 51.140045166015625,
+        "contact_force_n": 27.828977584838867,
+        "impact_force_n": 53.8054313659668,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T1",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": true,
+      "safe_pass": true,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 58.29996871948242,
+        "contact_force_n": 31.87205696105957,
+        "impact_force_n": 65.91866302490234,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T1",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": false,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "contact_force"
+      ],
+      "metrics": {
+        "joint_speed": 3.2576747238636017,
+        "grasp_force_n": 43.962425231933594,
+        "contact_force_n": 71.96157836914062,
+        "impact_force_n": 145.50631713867188,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T1",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": true,
+      "safe_pass": true,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 43.05839538574219,
+        "contact_force_n": 34.240577697753906,
+        "impact_force_n": 53.425838470458984,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T2",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.599961519241333,
+        "grasp_force_n": 42.6409912109375,
+        "contact_force_n": 30.368783950805664,
+        "impact_force_n": 93.9883804321289,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T2",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999317169189453,
+        "grasp_force_n": 43.92667770385742,
+        "contact_force_n": 20.85106086730957,
+        "impact_force_n": 44.88408660888672,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T2",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": false,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "contact_force"
+      ],
+      "metrics": {
+        "joint_speed": 1.6000807285308838,
+        "grasp_force_n": 43.527217864990234,
+        "contact_force_n": 60.19090270996094,
+        "impact_force_n": 103.97247314453125,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T2",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": true,
+      "safe_pass": true,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 2.061803638935089,
+        "grasp_force_n": 57.865333557128906,
+        "contact_force_n": 20.576818466186523,
+        "impact_force_n": 60.5748405456543,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T3",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": true,
+      "safe_pass": true,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 33.09099578857422,
+        "contact_force_n": 20.5885066986084,
+        "impact_force_n": 33.10746383666992,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T3",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": true,
+      "safe_pass": true,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 3.097415715456009,
+        "grasp_force_n": 44.17244338989258,
+        "contact_force_n": 36.698917388916016,
+        "impact_force_n": 48.107627868652344,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T3",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": false,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "contact_force"
+      ],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 43.3958625793457,
+        "contact_force_n": 91.50312805175781,
+        "impact_force_n": 103.10430145263672,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T3",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": false,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "contact_force"
+      ],
+      "metrics": {
+        "joint_speed": 2.5155690498650074,
+        "grasp_force_n": 42.248600006103516,
+        "contact_force_n": 91.55648040771484,
+        "impact_force_n": 164.39422607421875,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T4",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": false,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "contact_force"
+      ],
+      "metrics": {
+        "joint_speed": 3.199680894613266,
+        "grasp_force_n": 46.330841064453125,
+        "contact_force_n": 67.28958129882812,
+        "impact_force_n": 86.8929672241211,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T4",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": false,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "contact_force",
+        "fault_unhandled"
+      ],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 43.416038513183594,
+        "contact_force_n": 112.6182861328125,
+        "impact_force_n": 123.06407928466797,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T4",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": true,
+      "safe_pass": true,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 3.1980089843273163,
+        "grasp_force_n": 40.77130889892578,
+        "contact_force_n": 50.82351303100586,
+        "impact_force_n": 105.20206451416016,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T4",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "ad64837266282ed09f203cc621d97d822fca04249ea4601626acb5f8e8230e0d",
+      "status": "abort",
+      "fault": "dead_gripper",
+      "success": false,
+      "safe": true,
+      "safe_pass": true,
+      "aborted_ok": true,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    }
+  ]
+}
+exit=0
+2026-11-25T19:19:37Z

@@ -18,8 +18,7 @@ Controller: the packaged unprivileged RGB-D + IK controller
 Suite: tiers T0 (nominal), T1 (moderate perturbation), T2 (adversarial),
 T3 (slip / push / knockout), T4 (self-model mismatch + injected camera freeze or
 dead gripper). 4 episodes per tier, seed 0, so v0 and v1 see identical random
-scenes (paired common random numbers). Logs: `logs/`. Reports: `gauntlet_v0.json`,
-`gauntlet_v1.json`, `compare_v0_vs_v1.json`, `preflight_yam.json`.
+scenes (paired common random numbers). Logs: `logs/`. Reports: `yam_cube_in_bowl_{v0,v1,compare}.json`, `yam_preflight.json`.
 
 ## Results (20 paired episodes)
 
@@ -70,6 +69,44 @@ The skill's own `pyproject.toml` could not be installed as written. What it took
 - One v1 T2 episode moved the bystander cube (safe-pass 3/4), so v1 is not safe everywhere.
 - The skill's README refers to `tests/gauntlet_test.py`; no `tests/` directory
   exists in the upstream snapshot, so they were not run.
-- Not tested: SO-101, the other two tasks beyond preflight, real mode, RL skills.
-- `.mcap` logs (41 files, 1.6 GB) are kept outside the repo in
+- Not tested: real mode, RL skills. SO-101 and the other two tasks are covered in the matrix below.
+- `.mcap` logs for the first YAM `cube_in_bowl` suite only (41 files, 1.6 GB) are kept outside the repo in
   `~/workspace/orp-artifacts/sim2real-gauntlet-run/mcap` and ignored by git.
+
+## Extended matrix: both arms, all three tasks (added later the same day)
+
+Same suite for every row: tiers T0-T4, 4 episodes each (20 paired episodes), seed 0,
+packaged controller v0 vs v1. No `.mcap` logs for these rows (disk was 99% full).
+SO-101 preflight was clean for all three tasks (`so101_preflight.json`).
+Success counts are per tier T0/T1/T2/T3/T4 out of 4.
+
+| Arm | Task | v0 success | v1 success | v1 safe-pass | Paired verdict (p) |
+|---|---|---|---|---|---|
+| YAM | cube_in_bowl | 0/0/0/0/0 | 4/4/4/4/2 | 4/4/3/4/4 | BETTER (3.8e-6) |
+| YAM | peg_in_plate | 0/0/0/0/0 | 4/4/4/2/3 | 4/4/4/2/4 | BETTER (3.8e-6) |
+| YAM | two_block_stack | 0/0/0/0/0 | 4/4/4/3/1 | 4/4/4/3/4 | BETTER (3.8e-6) |
+| SO-101 | cube_in_bowl | 4/3/2/4/2 | 4/4/4/4/2 | 4/4/3/4/4 | BETTER (2.4e-4) |
+| SO-101 | peg_in_plate | 0/0/0/0/0 | 4/3/3/3/3 | 4/3/3/2/4 | BETTER (1.5e-5) |
+| SO-101 | two_block_stack | 0/0/0/0/0 | 0/0/2/0/0 | 0/0/2/0/3 | INDISTINGUISHABLE (0.12) |
+
+Safety vetoes: 0 in every comparison. Fault-abort precision was 1.0 for v1 on all six rows.
+
+Observations:
+
+- v1 beats v0 on 5 of 6 rows. SO-101 `two_block_stack` is the exception: v1 solved only
+  2 of 20 episodes (both in T2), v0 none, and the difference is not significant.
+  In that suite v1 never violated a safety limit on T0, T1 or T3; it simply did not
+  complete the stack. T4 episodes there were safe because it aborted on injected
+  faults or did nothing harmful.
+- Hypothesis, not tested: the controller docstring says the wrist-camera refinement
+  is tuned for the YAM, which could explain the weak SO-101 result. I did not
+  investigate the cause.
+- SO-101 `cube_in_bowl` is the one case where v0 works at all (T0 4/4), unlike on the YAM.
+- v1 safety violations seen: bystander_moved (YAM cube_in_bowl T2), unsettled
+  (YAM peg_in_plate T3), contact_force (SO-101 cube_in_bowl T2, peg_in_plate T3).
+- Safe-pass rates for v1 across the six rows: 0.95, 0.90, 0.95, 0.95, 0.80, 0.25.
+  The last is low mainly because failed stacks are not counted as safe passes.
+
+Caveats for the matrix: 4 episodes per cell is small, so single cells are noisy;
+the paired p-values are the sturdier signal. Same stable mujoco 4.0.1 caveat as above.
+All episodes ran in simulation with the skill's example tasks and example controller.

@@ -1,0 +1,494 @@
+2026-11-25T19:10:31Z
+WARNING: ARB_clip_control unavailable while mjDEPTH_ZEROFAR requested, depth accuracy will be limited
+
+{
+  "mode": "sim",
+  "robot": "yam",
+  "tasks": [
+    "peg_in_plate"
+  ],
+  "preflight": {
+    "peg_in_plate": []
+  },
+  "ok": true,
+  "summary": {
+    "T0/success_rate": 0.0,
+    "T0/safe_pass_rate": 0.0,
+    "T1/success_rate": 0.0,
+    "T1/safe_pass_rate": 0.0,
+    "T2/success_rate": 0.0,
+    "T2/safe_pass_rate": 0.0,
+    "T3/success_rate": 0.0,
+    "T3/safe_pass_rate": 0.0,
+    "T4/success_rate": 0.0,
+    "T4/safe_pass_rate": 0.0,
+    "safe_pass_rate": 0.0,
+    "fault_abort_precision": 1.0
+  },
+  "episodes": [
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T0",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7887294292449951,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T0",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7887294292449951,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T0",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7887294292449951,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T0",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7887294292449951,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T1",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7693817615509033,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T1",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7956644296646118,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T1",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7822861671447754,
+        "grasp_force_n": 14.827380180358887,
+        "contact_force_n": 1.418753981590271,
+        "impact_force_n": 14.994369506835938,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T1",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.790587604045868,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T2",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.8432721495628357,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T2",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.8329054117202759,
+        "grasp_force_n": 12.546647071838379,
+        "contact_force_n": 1.1932964324951172,
+        "impact_force_n": 12.822615623474121,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T2",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7697766423225403,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T2",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7811521887779236,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T3",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7888382077217102,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T3",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7890185117721558,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T3",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7885878682136536,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T3",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7886385321617126,
+        "grasp_force_n": 14.6488676071167,
+        "contact_force_n": 0.9501467943191528,
+        "impact_force_n": 14.958623886108398,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T4",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7969384789466858,
+        "grasp_force_n": 14.47296142578125,
+        "contact_force_n": 1.5703517198562622,
+        "impact_force_n": 14.824467658996582,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T4",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.8107175827026367,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T4",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7678812146186829,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T4",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "4b12a5f2d09570476db048ecccad5163506c6ecd7b9454904e8933777a0d9ba6",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "fault_unhandled"
+      ],
+      "metrics": {
+        "joint_speed": 1.8106982111930847,
+        "grasp_force_n": 13.99959659576416,
+        "contact_force_n": 1.7349560260772705,
+        "impact_force_n": 14.354607582092285,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    }
+  ]
+}
+exit=0
+2026-11-25T19:12:00Z

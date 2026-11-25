@@ -1,0 +1,578 @@
+2026-11-25T19:22:17Z
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: ARB_clip_control unavailable while mjDEPTH_ZEROFAR requested, depth accuracy will be limited
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+{
+  "mode": "sim",
+  "robot": "so101",
+  "tasks": [
+    "peg_in_plate"
+  ],
+  "preflight": {
+    "peg_in_plate": []
+  },
+  "ok": true,
+  "summary": {
+    "T0/success_rate": 0.0,
+    "T0/safe_pass_rate": 0.0,
+    "T1/success_rate": 0.0,
+    "T1/safe_pass_rate": 0.0,
+    "T2/success_rate": 0.0,
+    "T2/safe_pass_rate": 0.0,
+    "T3/success_rate": 0.0,
+    "T3/safe_pass_rate": 0.0,
+    "T4/success_rate": 0.0,
+    "T4/safe_pass_rate": 0.0,
+    "safe_pass_rate": 0.0,
+    "fault_abort_precision": 1.0
+  },
+  "episodes": [
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T0",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 107.66826629638672,
+        "contact_force_n": 28.777559280395508,
+        "impact_force_n": 113.35053253173828,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T0",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 107.66826629638672,
+        "contact_force_n": 28.777559280395508,
+        "impact_force_n": 113.35053253173828,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T0",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 107.66826629638672,
+        "contact_force_n": 28.777559280395508,
+        "impact_force_n": 113.35053253173828,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T0",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 107.66826629638672,
+        "contact_force_n": 28.777559280395508,
+        "impact_force_n": 113.35053253173828,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T1",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7857380211353302,
+        "grasp_force_n": 77.1966552734375,
+        "contact_force_n": 28.098419189453125,
+        "impact_force_n": 84.3519287109375,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T1",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.8076330423355103,
+        "grasp_force_n": 110.76612091064453,
+        "contact_force_n": 32.852745056152344,
+        "impact_force_n": 111.58401489257812,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T1",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.634499430656433,
+        "grasp_force_n": 99.07723236083984,
+        "contact_force_n": 29.711383819580078,
+        "impact_force_n": 103.84590148925781,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T1",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 75.3663558959961,
+        "contact_force_n": 37.77217483520508,
+        "impact_force_n": 78.19007110595703,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T2",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.708122342824936,
+        "grasp_force_n": 83.04729461669922,
+        "contact_force_n": 22.091272354125977,
+        "impact_force_n": 86.03799438476562,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T2",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.6000747680664062,
+        "grasp_force_n": 74.90113830566406,
+        "contact_force_n": 29.850528717041016,
+        "impact_force_n": 75.48754119873047,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T2",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 2.18401700258255,
+        "grasp_force_n": 60.66927719116211,
+        "contact_force_n": 18.910303115844727,
+        "impact_force_n": 71.97029113769531,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T2",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.6431719064712524,
+        "grasp_force_n": 90.94129180908203,
+        "contact_force_n": 28.59099769592285,
+        "impact_force_n": 94.43562316894531,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T3",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 104.80635070800781,
+        "contact_force_n": 26.13507652282715,
+        "impact_force_n": 109.5515365600586,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T3",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.6000032424926758,
+        "grasp_force_n": 0.0,
+        "contact_force_n": 0.0,
+        "impact_force_n": 0.0,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T3",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.610904186964035,
+        "grasp_force_n": 76.53915405273438,
+        "contact_force_n": 24.338666915893555,
+        "impact_force_n": 80.82201385498047,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T3",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.6223952174186707,
+        "grasp_force_n": 81.37553405761719,
+        "contact_force_n": 23.913898468017578,
+        "impact_force_n": 87.3244857788086,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T4",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 109.0965347290039,
+        "contact_force_n": 29.91598892211914,
+        "impact_force_n": 117.46177673339844,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T4",
+      "idx": 1,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.6060717403888702,
+        "grasp_force_n": 110.94457244873047,
+        "contact_force_n": 27.677629470825195,
+        "impact_force_n": 116.96826171875,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T4",
+      "idx": 2,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.5999972820281982,
+        "grasp_force_n": 107.12484741210938,
+        "contact_force_n": 28.403867721557617,
+        "impact_force_n": 115.38496398925781,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    },
+    {
+      "task_id": "peg_in_plate",
+      "tier": "T4",
+      "idx": 3,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "22228f689849b2a7ada87df62c69d5a683d81d2fd82b3c1386e08a1e2ff843e4",
+      "status": "done",
+      "fault": "",
+      "success": false,
+      "safe": true,
+      "safe_pass": false,
+      "aborted_ok": false,
+      "violations": [
+        "fault_unhandled"
+      ],
+      "metrics": {
+        "joint_speed": 1.6422957181930542,
+        "grasp_force_n": 145.79629516601562,
+        "contact_force_n": 34.47359848022461,
+        "impact_force_n": 147.473876953125,
+        "self_force_n": 0.0
+      },
+      "mcap_path": ""
+    }
+  ]
+}
+exit=0
+2026-11-25T19:24:38Z
