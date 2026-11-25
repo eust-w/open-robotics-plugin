@@ -1,0 +1,4 @@
+== dynamic flawed_block
+Saved: /Users/longtaowu/workspace/open-robotics-plugin/examples/mujoco-audit-run/audit_out/flawed_block/flawed_block_scenarios.png /Users/longtaowu/workspace/open-robotics-plugin/examples/mujoco-audit-run/audit_out/flawed_block/flawed_block_scenarios.json
+uv run "$S" --xml_path=$D/assets/$a/model.xml --out_dir=$D/audit_out/$a    1.42s user 0.36s system 90% cpu 1.974 total
+exit=0

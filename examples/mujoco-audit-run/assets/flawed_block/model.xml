@@ -1,0 +1,10 @@
+<mujoco model="flawed_block">
+  <compiler angle="radian"/>
+  <worldbody>
+    <body name="block" pos="0 0 0.3">
+      <freejoint/>
+      <geom type="box" size="0.025 0.025 0.025" mass="50"/>
+      <geom type="sphere" size="0.2" pos="0.4 0 0" contype="0" conaffinity="0"/>
+    </body>
+  </worldbody>
+</mujoco>

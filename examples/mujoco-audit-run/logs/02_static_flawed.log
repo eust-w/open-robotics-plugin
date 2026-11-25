@@ -1,0 +1,12 @@
+== static flawed
+{
+  "passed": false,
+  "errors": [
+    "Root <body> 'block' has non-zero pos=[0.0, 0.0, 0.3] (must be [0, 0, 0] with resting base at z=0)."
+  ],
+  "warnings": [
+    "Root <body> name 'block' does not match modelname 'flawed_block'."
+  ],
+  "mesh_topology": []
+}
+exit=0

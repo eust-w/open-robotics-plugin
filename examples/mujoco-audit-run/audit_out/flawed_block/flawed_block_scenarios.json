@@ -1,0 +1,313 @@
+{
+  "agent_guidance_disclaimer": "DIAGNOSTIC SUITE ONLY \u2014 USE ENGINEERING JUDGMENT: All 10 scenarios always run to provide complete physical telemetry, but not every test applies to every object shape. For example: spheres/cylinders SHOULD roll at <5 deg on the tilt table and should NOT self-stack; solid blocks have no cavity to probe; rigid objects have 0 joints; tall goblets should tip before sliding. Treat 'CHECK' badges as diagnostic clues to evaluate in context, not blind pass/fail rules.",
+  "selected_scenarios": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "active_thresholds": {
+    "hover_tol_mm": 2.0,
+    "min_flat_slip_deg": 8.0,
+    "hull_density_cv_tol": 0.15,
+    "max_residual_ang_speed_rad_s": 0.25,
+    "plugged_cavity_rays_tol": 12.0,
+    "plugged_cavity_deficit_mm_tol": 8.0,
+    "plugged_through_holes_tol": 3.0,
+    "grasp_lift_slip_mm_tol": 25.0,
+    "grasp_shake_slip_mm_tol": 20.0,
+    "ledge_overhang_diff_pct_tol": 25.0,
+    "high_speed_drop_scale": 6.0,
+    "thin_slab_min_dim_ratio": 0.2,
+    "bounce_ratio_tol": 0.35
+  },
+  "asset_info": {
+    "asset_label": "flawed_block",
+    "xml_path": "/Users/longtaowu/workspace/open-robotics-plugin/examples/mujoco-audit-run/assets/flawed_block/model.xml",
+    "total_mass_g": 83510.322,
+    "total_hull_vol_cm3": 125.0,
+    "eff_hull_density_g_cm3": 668.0826,
+    "hull_density_cv": 0.0,
+    "com_local_m": [
+      0.1605,
+      0.0,
+      0.3
+    ],
+    "com_z_above_floor_m": 0.2,
+    "com_height_pct_of_z_span": 50.0,
+    "z_band_mass_density": {
+      "mid_third": {
+        "n_hulls": 1,
+        "vol_cm3": 125.0,
+        "mass_g": 50000.0,
+        "mass_pct": 59.9,
+        "density_g_cm3": 400.0
+      }
+    },
+    "vis_min": [
+      0.2,
+      -0.2,
+      0.09999999999999998
+    ],
+    "vis_max": [
+      0.6000000000000001,
+      0.2,
+      0.5
+    ],
+    "vis_span_cm": [
+      40.0,
+      40.0,
+      40.0
+    ],
+    "col_span_cm": [
+      5.0,
+      5.0,
+      5.0
+    ],
+    "n_vis_geoms": 1,
+    "n_col_geoms": 1,
+    "n_col_geoms_by_body": {
+      "block": 1
+    },
+    "over_decomposed_bodies": [],
+    "maxhullvert_truncated_geoms": [],
+    "collision_alignment": {
+      "status": "FAIL",
+      "issues": [
+        "Collision geometry has open gaps (1038 orthographic ray(s) [X=340, Y=349, Z=349] pierced visual mesh without intersecting any collider).",
+        "Visual component(s) >= 5% of bbox diagonal lack collision coverage (< 50%): block/geom_1 (0% covered, 400mm).",
+        "Gross collider-to-visual frame or scale mismatch: c2v_mean=201.8mm, c2v_p95=226.3mm.",
+        "Visual geometry protrudes outside colliders: v2c_p95=555.4mm (gate 34.6mm), uncollided_vis_area=100.0%."
+      ],
+      "fit_gate_mm": 13.86,
+      "c2v_mean_mm": 201.76,
+      "c2v_p95_mm": 226.32,
+      "c2v_p98_mm": 226.69,
+      "c2v_max_mm": 227.56,
+      "bridged_col_area_pct": 100.0,
+      "v2c_mean_mm": 399.35,
+      "v2c_p95_mm": 555.45,
+      "v2c_p99_mm": 567.72,
+      "v2c_max_mm": 575.0,
+      "uncollided_vis_area_pct": 100.0,
+      "n_visual_components": 1,
+      "n_collider_islands": 1,
+      "missing_visual_components": [
+        {
+          "component_index": 0,
+          "body": "block",
+          "geom": "geom_1",
+          "max_span_mm": 400.0,
+          "coverage_pct": 0.0,
+          "bbox_center_m": [
+            0.4,
+            0.0,
+            0.3
+          ]
+        }
+      ],
+      "needle_gap_rays": 1038,
+      "needle_gap_rays_by_axis": {
+        "X": 340,
+        "Y": 349,
+        "Z": 349
+      }
+    },
+    "static_and_mesh_hygiene": {
+      "passed": false,
+      "errors": [
+        "Root <body> 'block' has non-zero pos=[0.0, 0.0, 0.3] (must be [0, 0, 0] with resting base at z=0)."
+      ],
+      "warnings": [
+        "Root <body> name 'block' does not match modelname 'flawed_block'."
+      ],
+      "mesh_topology": []
+    },
+    "thresholds": {
+      "hover_tol_mm": 2.0,
+      "min_flat_slip_deg": 8.0,
+      "hull_density_cv_tol": 0.15,
+      "max_residual_ang_speed_rad_s": 0.25,
+      "plugged_cavity_rays_tol": 12.0,
+      "plugged_cavity_deficit_mm_tol": 8.0,
+      "plugged_through_holes_tol": 3.0,
+      "grasp_lift_slip_mm_tol": 25.0,
+      "grasp_shake_slip_mm_tol": 20.0,
+      "ledge_overhang_diff_pct_tol": 25.0,
+      "high_speed_drop_scale": 6.0,
+      "thin_slab_min_dim_ratio": 0.2,
+      "bounce_ratio_tol": 0.35
+    }
+  },
+  "scenarios": {
+    "1_six_pose_drop_and_hover": {
+      "status": "FAIL",
+      "issues": [
+        "Upright visual bottom z=-180.91 mm (tol +/-12.0 mm; positive=hover, negative=sink)."
+      ],
+      "agent_note": "Positive upright_vis_hover_mm > 2mm means collision hulls protrude below the visual mesh (tabletop hover); negative < -2mm means visual mesh sinks into the floor.",
+      "upright_vis_hover_mm": -180.908,
+      "upright_col_min_mm": -0.052,
+      "upright_normal_force_N": 647.5888,
+      "expected_weight_N": 819.2363,
+      "any_nan": false,
+      "max_final_speed_m_s": 0.86784,
+      "poses": {
+        "+Z_up": {
+          "vis_min_z_mm": -160.238,
+          "final_lin_speed_m_s": 0.68748,
+          "final_ang_speed_rad_s": 2.49227
+        },
+        "-Z_up": {
+          "vis_min_z_mm": -169.816,
+          "final_lin_speed_m_s": 0.86784,
+          "final_ang_speed_rad_s": 2.65049
+        },
+        "+X_up": {
+          "vis_min_z_mm": 224.956,
+          "final_lin_speed_m_s": 0.0,
+          "final_ang_speed_rad_s": 0.0
+        },
+        "-X_up": {
+          "vis_min_z_mm": -575.044,
+          "final_lin_speed_m_s": 0.0,
+          "final_ang_speed_rad_s": 0.0
+        },
+        "+Y_up": {
+          "vis_min_z_mm": -133.79,
+          "final_lin_speed_m_s": 0.08042,
+          "final_ang_speed_rad_s": 2.27808
+        },
+        "-Y_up": {
+          "vis_min_z_mm": -133.79,
+          "final_lin_speed_m_s": 0.08042,
+          "final_ang_speed_rad_s": 2.27808
+        }
+      }
+    },
+    "2_tilt_table_sweep": {
+      "status": "INFO",
+      "issues": [],
+      "agent_note": "Diagnostic telemetry: Flat-bottomed objects typically slip at arctan(mu) ~ 25-42 deg; tall objects tip at arctan(base_half_width / com_height); spheres/cylinders roll immediately (<5 deg). Compare tip angle against com_height_pct_of_z_span (50.0%) and z_band_mass_density to verify CoM height is physically realistic (e.g. weighted pot base vs airy upper foliage).",
+      "com_height_pct_of_z_span": 50.0,
+      "axes": {
+        "X_axis": {
+          "slip_angle_deg": -0.0,
+          "tip_angle_deg": 0.1,
+          "implied_mu": -0.0
+        },
+        "Y_axis": {
+          "slip_angle_deg": 0.0,
+          "tip_angle_deg": 0.1,
+          "implied_mu": 0.0
+        }
+      }
+    },
+    "3_roll_and_isotropy": {
+      "status": "INFO",
+      "issues": [],
+      "agent_note": "Diagnostic telemetry: Inspect z_band_mass_density, com_height_pct_of_z_span, and hull_density_cv together. Homogeneous single-material objects should have uniform density across hulls (hull_density_cv ~ 0), whereas composite / multi-material objects (e.g., solid pot base + airy foliage canopy, or metal tool head + handle) SHOULD have different densities per material region (hull_density_cv > 0.15 is physically expected and does NOT trigger any warning).",
+      "roll_distance_cm": 37.75,
+      "settle_time_s": 2.5,
+      "settled_within_2p5s": false,
+      "final_lin_speed_m_s": 0.05495,
+      "final_ang_speed_rad_s": 0.28639,
+      "hull_density_cv": 0.0,
+      "eff_hull_density_g_cm3": 668.0826,
+      "com_height_pct_of_z_span": 50.0,
+      "z_band_mass_density": {
+        "mid_third": {
+          "n_hulls": 1,
+          "vol_cm3": 125.0,
+          "mass_g": 50000.0,
+          "mass_pct": 59.9,
+          "density_g_cm3": 400.0
+        }
+      }
+    },
+    "4_three_axis_ray_and_cavity_probe": {
+      "status": "INFO",
+      "issues": [],
+      "agent_note": "Diagnostic telemetry: Inspect the ray-hit visualization, dropped marble resting positions, plugged_ray_count_of_400, and plugged_through_holes_by_axis in context. Open containers (bowls, mugs), neck undercuts, and functional handle/clip loops should be unobstructed so marbles enter the cavity and loop rays pass through; foliage canopies, bristles, and fine decorative crevices SHOULD be wrapped in smooth envelope hulls.",
+      "has_visual_cavity": false,
+      "opened_joints_for_probe": {},
+      "plugged_ray_count_of_400": 0,
+      "max_ray_plug_deficit_mm": 0.0,
+      "plugged_through_holes_by_axis": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "clear_through_holes_by_axis": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "probe_sphere_radius_mm": 22.0
+    },
+    "5_com_aligned_grasp_lift_shake": {
+      "status": "INFO",
+      "issues": [],
+      "agent_note": "Diagnostic telemetry: Gripper pads auto-scale to object size & CoM height. Inspect grasp_retained, lift_slip_mm, and shake_slip_mm in context.",
+      "grasp_axis": "Y",
+      "grasp_span_cm": 40.0,
+      "exceeds_standard_16cm_gripper": true,
+      "hoist_height_cm": -31.78,
+      "lift_slip_mm": 614.43,
+      "shake_slip_mm": 74.67,
+      "grasp_retained": false
+    },
+    "6_articulation_sweep_and_polarity": {
+      "status": "INFO",
+      "issues": [],
+      "agent_note": "If articulated joints exist, check closes_at_limit vs opens_at_limit polarity, verify minimal degrees of freedom (no uncoupled floppy pivot links), verify internal_contacts_at_limits do not block motion, and verify position-holding joints (height slides, friction hinges) satisfy frictionloss > gravity_load_at_mid so they do not sag under gravity.",
+      "num_articulated_joints": 0,
+      "joints": []
+    },
+    "7_cliff_ledge_overhang_slide": {
+      "status": "INFO",
+      "issues": [],
+      "agent_note": "Diagnostic telemetry: Flat-bottomed box-like objects tip near ~50% overhang; chamfered-base bottles may hook the pusher rim, and spheres/cylinders roll off early (~10%). Check com_local_m directly for horizontal CoM symmetry.",
+      "tip_overhang_pct": 0.0,
+      "expected_com_overhang_pct": 109.9
+    },
+    "8_twin_self_stack_and_nudge": {
+      "status": "INFO",
+      "issues": [],
+      "agent_note": "Flat-topped objects (boxes, closed lunchboxes, coasters, books) should stack stably; curved/spherical/open-topped objects naturally roll or nest off each other.",
+      "stacked_stably_static": false,
+      "retained_after_table_nudge": false,
+      "vertical_separation_ratio_z_over_sz": -0.299
+    },
+    "9_pendulum_impact_and_sites": {
+      "status": "INFO",
+      "issues": [],
+      "agent_note": "Striker mass scales with object hull volume (0.5 g/cm3 * V_hull) and strike speed scales with sqrt(g * L), exposing 10x mass/density outliers. Also verifies <site> groups (group=4) and Z-heights.",
+      "striker_mass_g": 62.5,
+      "striker_speed_m_s": 2.5,
+      "peak_object_vx_m_s": 1.581,
+      "inelastic_ref_vx_m_s": 0.002,
+      "post_impact_slide_cm": 11.56,
+      "num_sites": 0,
+      "sites": []
+    },
+    "10_high_speed_thin_slab_drop": {
+      "status": "PASS",
+      "issues": [],
+      "agent_note": "Drops from 6x object max_dim onto a thin slab (20% of object min_dim) to test scale-invariant tunneling, contact penetration, and bounce ratio.",
+      "drop_height_cm": 240.0,
+      "slab_thickness_mm": 35.0,
+      "tunneled_through_thin_slab": false,
+      "max_penetration_mm": 24.08,
+      "resting_penetration_mm": 0.0,
+      "rebound_height_cm": 17.89,
+      "bounce_ratio": 0.075
+    }
+  }
+}

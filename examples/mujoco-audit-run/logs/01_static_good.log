@@ -1,0 +1,22 @@
+2026-11-25T18:03:31Z
+uv 0.12.6 (7938ca5d5 2026-08-25 aarch64-apple-darwin)
+== static good
+Downloading scipy (19.5MiB)
+Downloading mujoco-studio (7.5MiB)
+Downloading mujoco-core (9.5MiB)
+Downloading mujoco-studio-wasm (2.3MiB)
+ Downloaded mujoco-studio-wasm
+ Downloaded mujoco-studio
+ Downloaded mujoco-core
+ Downloaded scipy
+Installed 12 packages in 242ms
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    "Root <body> name 'block' does not match modelname 'good_block'."
+  ],
+  "mesh_topology": []
+}
+uv run "$S" --xml_path=$D/assets/good_block/model.xml --static_only  2.20s user 1.80s system 2% cpu 2:41.11 total
+exit=0

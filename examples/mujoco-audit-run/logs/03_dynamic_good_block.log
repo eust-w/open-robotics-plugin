@@ -1,0 +1,4 @@
+== dynamic good_block
+Saved: /Users/longtaowu/workspace/open-robotics-plugin/examples/mujoco-audit-run/audit_out/good_block/good_block_scenarios.png /Users/longtaowu/workspace/open-robotics-plugin/examples/mujoco-audit-run/audit_out/good_block/good_block_scenarios.json
+uv run "$S" --xml_path=$D/assets/$a/model.xml --out_dir=$D/audit_out/$a    1.55s user 0.44s system 70% cpu 2.825 total
+exit=0
