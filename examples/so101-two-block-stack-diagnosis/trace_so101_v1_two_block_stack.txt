@@ -1,0 +1,29 @@
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+/Users/longtaowu/.claude/skills/sim2real-gauntlet/examples/color_blob_ik_controller.py:127: UserWarning: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+  self.model = spec.compile()
+WARNING: ARB_clip_control unavailable while mjDEPTH_ZEROFAR requested, depth accuracy will be limited
+
+prompt: Stack the orange top block cleanly onto the blue base block without tipping it.
+[color_mask:orange] n_fg=382 red_family=56 fam&clauseA=56 fam&clauseB=7 final_pass=7
+   red-family px (r,g,b) p10/p50/p90: [[np.float64(169.0), np.float64(255.0), np.float64(255.0)], [np.float64(99.0), np.float64(226.0), np.float64(228.0)], [np.float64(48.0), np.float64(118.0), np.float64(120.0)]]
+   fraction of red-family px failing clause A (b<0.58r): 0.0 | failing clause B: 0.88
+[robust_xy] n=7 x[-0.055,-0.055] y[-0.062,-0.038] z[0.780,0.780] -> [-0.055  -0.0498]
+[robust_xy] n=224 x[0.040,0.098] y[-0.066,-0.012] z[0.765,0.790] -> [ 0.0689 -0.04  ]
+[perceive_overhead] target_xy=[-0.055  -0.0498] dest_xy=[ 0.0689 -0.04  ] obj_h=0.039965271949768844 sup_dz=0.039965271949768844 plane=[-0.   -0.    0.75]
+[move_xyz] rule=pre_grasp target=[-0.055  -0.0498  0.818 ]
+[move_xyz] rule=grasp target=[-0.055  -0.0498  0.774 ]
+[move_xyz] rule=lift target=[-0.055  -0.0498  0.818 ]
+[move_xyz] rule=carry target=[ 0.0689 -0.04    0.856 ]
+[move_xyz] rule=descend_place target=[ 0.0689 -0.04    0.8219]
+[move_xyz] rule=retract target=[ 0.0689 -0.04    0.856 ]
+GROUND TRUTH target: [-0.07 -0.05  0.77] support: [ 0.07 -0.04  0.77]
+success: False outcome: crash

@@ -1,0 +1,26 @@
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+/Users/longtaowu/.claude/skills/sim2real-gauntlet/examples/color_blob_ik_controller.py:127: UserWarning: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+  self.model = spec.compile()
+WARNING: ARB_clip_control unavailable while mjDEPTH_ZEROFAR requested, depth accuracy will be limited
+
+prompt: Place the red cube inside the blue bowl; leave the yellow bystander untouched.
+[robust_xy] n=56 x[-0.082,-0.055] y[-0.062,-0.038] z[0.780,0.790] -> [-0.0684 -0.05  ]
+[robust_xy] n=1086 x[-0.002,0.140] y[-0.113,0.033] z[0.758,0.794] -> [ 0.0692 -0.0384]
+[perceive_overhead] target_xy=[-0.0684 -0.05  ] dest_xy=[ 0.0692 -0.0384] obj_h=0.03996527194976851 sup_dz=0.008 plane=[-0.   -0.    0.75]
+[move_xyz] rule=pre_grasp target=[-0.0684 -0.05    0.87  ]
+[move_xyz] rule=grasp target=[-0.0684 -0.05    0.774 ]
+[move_xyz] rule=lift target=[-0.0684 -0.05    0.87  ]
+[move_xyz] rule=carry target=[ 0.0692 -0.0384  0.863 ]
+[move_xyz] rule=descend_place target=[ 0.0692 -0.0384  0.79  ]
+[move_xyz] rule=retract target=[ 0.0692 -0.0384  0.863 ]
+GROUND TRUTH target: [-0.07 -0.05  0.77] support: [ 0.07 -0.04  0.75]
+success: False outcome: crash

@@ -1,0 +1,88 @@
+WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'
+iterations: parent has 100 (default), child has 10, keeping parent value
+ls_iterations: parent has 50 (default), child has 20, keeping parent value
+
+WARNING: ARB_clip_control unavailable while mjDEPTH_ZEROFAR requested, depth accuracy will be limited
+
+outcome: {'status': 'done', 'fault': '', 'returncode': 0, 'stderr_tail': "WARNING: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'\niterations: parent has 100 (default), child has 10, keeping parent value\nls_iterations: parent has 50 (default), child has 20, keeping parent value\n\n/Users/longtaowu/.claude/skills/sim2real-gauntlet/examples/color_blob_ik_controller.py:127: UserWarning: Attach conflict when attaching 'so101' to 'plane', policy is 'warning'\niterations: parent has 100 (default), child has 10, keeping parent value\nls_iterations: parent has 50 (default), child has 20, keeping parent value\n  self.model = spec.compile()\n", 'ticks': 533, 'deadline': False, 'last_cam_read_tick': 509} | success: False | violations: ()
+ticks: 584 settle_start: 534
+{"tick": 0, "top": [-0.07, -0.05, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 140.4, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 24, "top": [-0.07, -0.05, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 140.4, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 48, "top": [-0.07, -0.05, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 140.4, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 72, "top": [-0.07, -0.05, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 140.4, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 96, "top": [-0.07, -0.05, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 140.4, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 120, "top": [-0.07, -0.05, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 140.4, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 144, "top": [-0.07, -0.05, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 140.4, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 168, "top": [-0.07, -0.05, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 140.4, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 192, "top": [-0.0716, -0.0469, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.8, "dz_mm": 0.0, "top_tilt": 9.3, "base_tilt": 0.0}
+{"tick": 216, "top": [-0.0733, -0.0417, 0.7732], "base": [0.07, -0.04, 0.77], "dxy_mm": 143.3, "dz_mm": 3.3, "top_tilt": 21.8, "base_tilt": 0.0}
+{"tick": 240, "top": [-0.0732, -0.042, 0.773], "base": [0.07, -0.04, 0.77], "dxy_mm": 143.2, "dz_mm": 3.0, "top_tilt": 20.6, "base_tilt": 0.0}
+{"tick": 264, "top": [-0.0731, -0.0424, 0.7726], "base": [0.07, -0.04, 0.77], "dxy_mm": 143.1, "dz_mm": 2.7, "top_tilt": 18.9, "base_tilt": 0.0}
+{"tick": 288, "top": [-0.0729, -0.0428, 0.7722], "base": [0.07, -0.04, 0.77], "dxy_mm": 143.0, "dz_mm": 2.3, "top_tilt": 17.1, "base_tilt": 0.0}
+{"tick": 312, "top": [-0.0728, -0.0432, 0.7717], "base": [0.07, -0.04, 0.77], "dxy_mm": 142.8, "dz_mm": 1.8, "top_tilt": 15.1, "base_tilt": 0.0}
+{"tick": 336, "top": [-0.0728, -0.0435, 0.7713], "base": [0.07, -0.04, 0.77], "dxy_mm": 142.8, "dz_mm": 1.4, "top_tilt": 13.4, "base_tilt": 0.0}
+{"tick": 360, "top": [-0.0728, -0.0438, 0.771], "base": [0.07, -0.04, 0.77], "dxy_mm": 142.9, "dz_mm": 1.1, "top_tilt": 11.8, "base_tilt": 0.0}
+{"tick": 384, "top": [-0.0713, -0.0477, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.5, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 408, "top": [-0.0713, -0.0477, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.5, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 432, "top": [-0.0713, -0.0477, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.5, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 456, "top": [-0.0713, -0.0477, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.5, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 480, "top": [-0.0713, -0.0477, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.5, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 504, "top": [-0.0713, -0.0477, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.5, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 528, "top": [-0.0713, -0.0477, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.5, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 533, "top": [-0.0713, -0.0477, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.5, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 552, "top": [-0.0713, -0.0477, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.5, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 576, "top": [-0.0713, -0.0477, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.5, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+{"tick": 583, "top": [-0.0713, -0.0477, 0.77], "base": [0.07, -0.04, 0.77], "dxy_mm": 141.5, "dz_mm": 0.0, "top_tilt": 0.0, "base_tilt": 0.0}
+initial top/base xyz: [-0.07 -0.05  0.77] [ 0.07 -0.04  0.77]
+final   top/base xyz: [-0.0713 -0.0477  0.77  ] [ 0.07 -0.04  0.77]
+stacked() predicate: n/a
+
+meas keys: ['time', 'global_step', 'follower/joint_position/shoulder_pan', 'follower/joint_position/shoulder_lift', 'follower/joint_position/elbow_flex', 'follower/joint_position/wrist_flex', 'follower/joint_position/wrist_roll', 'follower/joint_position/gripper', 'follower/command_timestamp', 'gauntlet/poses', 'gauntlet/forces']
+joint keys: ['follower/joint_position/shoulder_pan', 'follower/joint_position/shoulder_lift', 'follower/joint_position/elbow_flex', 'follower/joint_position/wrist_flex', 'follower/joint_position/wrist_roll', 'follower/joint_position/gripper']
+gripper key candidates: ['follower/joint_position/gripper']
+0 gripper 100.0
+14 gripper 100.0
+28 gripper 99.431
+42 gripper 79.43
+56 gripper 91.955
+70 gripper 97.518
+84 gripper 78.852
+98 gripper 92.959
+112 gripper 98.879
+126 gripper 99.779
+140 gripper 99.916
+154 gripper 99.94
+168 gripper 88.203
+182 gripper 83.11
+196 gripper 97.219
+210 gripper 83.774
+224 gripper 50.616
+238 gripper 40.938
+252 gripper 37.093
+266 gripper 34.134
+280 gripper 31.31
+294 gripper 28.506
+308 gripper 25.706
+322 gripper 22.906
+336 gripper 20.106
+350 gripper 17.306
+364 gripper 15.658
+378 gripper 15.409
+392 gripper 15.37
+406 gripper 15.354
+420 gripper 17.474
+434 gripper 48.261
+448 gripper 89.006
+462 gripper 98.279
+476 gripper 99.688
+490 gripper 99.902
+504 gripper 99.936
+518 gripper 97.817
+532 gripper 78.71
+546 gripper 93.839
+560 gripper 99.013
+574 gripper 99.8
+
+robot link candidates: []
+gripper first < 60 at tick 219
+target xyz at close: [-0.0733 -0.0417  0.7732]
