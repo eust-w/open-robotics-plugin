@@ -1,7 +1,7 @@
 # Why SO-101 `two_block_stack` fails with the packaged v1 controller
 
 Date: 2026-11-25. Follow-up to `../sim2real-gauntlet-run/RUN_RECORD.md`, where v1
-solved only 2 of 20 SO-101 `two_block_stack` episodes (YAM: 17 of 20). Pure
+solved only 2 of 20 SO-101 `two_block_stack` episodes (YAM: 16 of 20). Pure
 simulation, skill `sim2real-gauntlet` as installed by open-robotics-plugin
 (upstream snapshot v0.1.13). The installed skill was **not modified**; every
 experiment monkeypatches in the Python process only.
