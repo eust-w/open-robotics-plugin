@@ -1,0 +1,26 @@
+{
+  "name": "robotics",
+  "displayName": "Robotics",
+  "version": "0.1.13",
+  "category": "research",
+  "logo": "assets/logo.svg",
+  "description": "Robotics skills for any robot: 3D perception, collision-free motion planning, visual servoing, robot bring-up, sim2real, agent iteration, MuJoCo simulation, SimReady 3D asset authoring and physics auditing, and a live MuJoCo Studio 3D web sidecar.",
+  "keywords": [
+    "robotics",
+    "mujoco",
+    "sim2real",
+    "manipulation",
+    "simulation"
+  ],
+  "suggestedPrompts": [
+    "Localize the target object in 3D from RGB-only cameras",
+    "Plan a collision-free joint trajectory in MuJoCo",
+    "Run closed-loop eye-in-hand visual servoing",
+    "Run the Sim-to-Real Gauntlet and compare paired CRN controller candidates",
+    "Use mujoco-playground with motion-planning, rgb-object-localization, and visual-servoing to pick a block on YAM or SO-101 in sim and zero-shot to real",
+    "Use mujoco-playground-rl to create and train a quadruped joystick locomotion RL task on a new MuJoCo Menagerie robot",
+    "Launch a live MuJoCo Studio simulation in this workspace",
+    "Create a SimReady MuJoCo asset in Blender from a product URL or reference photo",
+    "Audit an existing MuJoCo model.xml with the 10-scenario physics suite and fix any defects"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "command": "node",
+  "args": ["main.mjs"],
+  "restart_policy": "always",
+  "display_name": "MuJoCo Studio",
+  "description": "Live 3D MuJoCo Studio Web viewer and simulation context bridge.",
+  "has_web_ui": true,
+  "ui_config": {
+    "display_name": "MuJoCo Studio",
+    "views": [
+      {
+        "path": "/",
+        "entrypoint": "SIDECAR_UI_ENTRYPOINT_AUX_PANE",
+        "title": "MuJoCo Studio"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+open-robotics-plugin
+Copyright 2026 open-robotics-plugin contributors
+
+This project redistributes and adapts work from:
+
+  robotics-antigravity-plugin
+  https://github.com/google-deepmind/robotics-antigravity-plugin
+  Copyright 2026 Google LLC, licensed under the Apache License 2.0.
+  Snapshot: v0.1.13, commit 0f640d8622c5d6335f068927d68a25958d0dda9a
+
+Changes made in this repository:
+  - Contents of skills/, rules/ and sidecars/ are copied from upstream
+    unmodified. Large top-level demo media were not copied.
+  - Added tools/orp.py, tests/, docs/ and CI to install the same skills into
+    other agent harnesses. Rule-file links are rewritten at INSTALL time into
+    the installed copies only; files in this repository are not rewritten.
+
+This is an independent community project. It is not affiliated with,
+endorsed by, or supported by Google or Google DeepMind. Some skills download
+third-party software and robot models or call third-party services (for
+example the Gemini API) at run time under their owners' terms.

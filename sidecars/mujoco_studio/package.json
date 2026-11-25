@@ -1,0 +1,5 @@
+{
+  "name": "mujoco-studio-sidecar",
+  "private": true,
+  "type": "module"
+}
