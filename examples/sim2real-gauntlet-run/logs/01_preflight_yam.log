@@ -1,0 +1,28 @@
+2026-11-25T18:55:47Z
+I1125 13:55:50.083359 6107787264 asset_loader.py:118] Cloning https://github.com/google-deepmind/mujoco_menagerie.git (sparse)...
+Cloning into '/private/tmp/gauntlet-src/mp/.local/github.com_google-deepmind_mujoco_menagerie/HEAD'...
+I1125 13:55:51.820731 6107787264 asset_loader.py:131] Setting sparse-checkout paths: ['aloha']
+I1125 13:55:51.852410 6107787264 asset_loader.py:137] Checking out HEAD
+Your branch is up to date with 'origin/main'.
+I1125 13:55:56.087049 6107787264 asset_loader.py:159] Sparse checkout complete
+I1125 13:55:56.088984 6107787264 asset_loader.py:144] Adding sparse-checkout paths: ['i2rt_yam']
+I1125 13:56:01.775125 6107787264 asset_loader.py:159] Sparse checkout complete
+WARNING: ARB_clip_control unavailable while mjDEPTH_ZEROFAR requested, depth accuracy will be limited
+
+{
+  "mode": "sim",
+  "robot": "yam",
+  "tasks": [
+    "cube_in_bowl",
+    "peg_in_plate",
+    "two_block_stack"
+  ],
+  "preflight": {
+    "cube_in_bowl": [],
+    "peg_in_plate": [],
+    "two_block_stack": []
+  },
+  "ok": true
+}
+.venv/bin/python -m robosim_gauntlet.cli  --robot=yam --preflight_only   5.88s user 1.00s system 35% cpu 19.146 total
+exit=0

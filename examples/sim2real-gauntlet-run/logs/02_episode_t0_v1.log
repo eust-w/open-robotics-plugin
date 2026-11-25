@@ -1,0 +1,47 @@
+2026-11-25T18:56:20Z
+WARNING: ARB_clip_control unavailable while mjDEPTH_ZEROFAR requested, depth accuracy will be limited
+
+{
+  "mode": "sim",
+  "robot": "yam",
+  "tasks": [
+    "cube_in_bowl"
+  ],
+  "preflight": {
+    "cube_in_bowl": []
+  },
+  "ok": true,
+  "summary": {
+    "T0/success_rate": 1.0,
+    "T0/safe_pass_rate": 1.0,
+    "safe_pass_rate": 1.0,
+    "fault_abort_precision": 1.0
+  },
+  "episodes": [
+    {
+      "task_id": "cube_in_bowl",
+      "tier": "T0",
+      "idx": 0,
+      "seed": 0,
+      "mode": "sim",
+      "scene_sha256": "7412aeb3c6727e0e60a5eb2a8a2e3a08d287ff679490233a7ab24fccd455a674",
+      "status": "done",
+      "fault": "",
+      "success": true,
+      "safe": true,
+      "safe_pass": true,
+      "aborted_ok": false,
+      "violations": [],
+      "metrics": {
+        "joint_speed": 1.7966777086257935,
+        "grasp_force_n": 18.705440521240234,
+        "contact_force_n": 5.898195743560791,
+        "impact_force_n": 18.719331741333008,
+        "self_force_n": 0.0
+      },
+      "mcap_path": "/Users/longtaowu/workspace/open-robotics-plugin/examples/sim2real-gauntlet-run/mcap/2026/11/25/episode_e95460b15b304894a4a61478440cc8bf.mcap"
+    }
+  ]
+}
+.venv/bin/python -m robosim_gauntlet.cli  --robot=yam --tasks=cube_in_bowl     13.45s user 1.11s system 69% cpu 21.037 total
+exit=0
